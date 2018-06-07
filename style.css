@@ -14,6 +14,77 @@ section#intro {
   background-size: cover;
 }
 
+/* icon animation */
+.fa-truck{
+  width: 100%;
+  animation: animationFrames linear 3s;
+  text-align: center;
+
+}
+
+@keyframes animationFrames{
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+
+  40% {
+    transform: translateX(300px) translateY(0px);
+  }
+
+  41% {
+    transform: translateX(300px) translateY(100px);
+  }
+  42%{
+    transform: translateX(-300px) translateY(100px);
+  }
+  43%{
+    transform: translateX(-300px) translateY(0px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+/* @-moz-keyframes animationFrames{
+  0% {
+    transform:  translate(0px);
+  }
+  100% {
+    transform:  translate(200px);
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    transform:  translate(0px);
+  }
+  100% {
+    transform:  translate(200px);
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    transform:  translate(0px);
+  }
+  100% {
+    transform:  translate(200px);
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    transform:  translate(0px);
+  }
+  100% {
+    transform:  translate(200px);
+  }
+} */
+
+.arrow-animation{
+  text-align: center;
+}
+
 #dechets {
   /* padding: 30px 0; */
 }
@@ -67,3 +138,5 @@ section#intro {
   flex-direction: column;
   justify-content: center;
 }
+
+
