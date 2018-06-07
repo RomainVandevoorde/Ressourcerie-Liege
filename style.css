@@ -5,3 +5,12 @@
 /* #quoi .dechet {
   background-color: limegreen;
 } */
+
+.carte {
+  padding: 20px;
+}
+
+.carte iframe {
+  width:100%;
+  height:300px;
+}
