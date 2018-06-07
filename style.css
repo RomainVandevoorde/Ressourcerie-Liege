@@ -12,6 +12,11 @@ h1 {
 section#intro {
   background-image: url('img/bg-intro.jpeg');
   background-size: cover;
+  background-attachment: fixed;
+}
+
+#title h1 {
+  color: orange;
 }
 
 #dechets {
@@ -23,7 +28,6 @@ section#intro {
   padding: 20px;
   box-sizing: border-box;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -66,4 +70,10 @@ section#intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
+}
+
+#intro .container {
+
+  background-color: rgba(0, 0, 0, 0.7);
 }
