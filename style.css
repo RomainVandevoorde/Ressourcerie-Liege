@@ -15,7 +15,7 @@ section#intro {
   background-attachment: fixed;
 }
 
-#title h1 {
+h1 {
   color: orange;
 }
 
@@ -31,10 +31,15 @@ section#intro {
 }
 
 
+
+
 .icons {
   max-width: 50px;
-  padding-bottom: 10px;
-  padding-top: 50px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgb(255, 161, 36);
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 900px) {
