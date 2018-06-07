@@ -1,4 +1,14 @@
-#quoi {
+section {
+  min-height: 100vh;
+}
+
+
+section#intro {
+  background-image: url('img/bg-intro.jpg');
+  background-size: cover;
+}
+
+#dechets {
   padding: 30px 0;
 }
 
