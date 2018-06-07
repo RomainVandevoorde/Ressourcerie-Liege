@@ -10,7 +10,12 @@ Jeudi 07 juin 2018
 
 **Client :** http://www.ressourcerieliege.be/
 
-**Améliorations :** Le site présentant deux projets (collecte d'encombrants et magasins de seconde main), nous avons tenté de les mettre plus en valeur. Nous avons également cherché à "désencombrer" le site par un visuel simple et attractif, notamment via deux sections et animations dans la partie "accueil".
+**Améliorations :**
+Le site présentant deux projets (collecte d'encombrants et magasins de seconde main), nous avons tenté de les mettre plus en valeur pour convaincre l'utilisateur en un regard. Nous avons également cherché à "désencombrer" le site par un visuel simple et attractif, notamment via deux sections et animations dans la partie "accueil".
+
+Nous sommes restés un maximum dans l'esprit du site. L'esprit "local" qui est une valeur de la Ressourcerie du pays de Liège " est représenté par une image de fond de Liège. Le code couleur qui était utilisé sur le site de base, le orange, a été ré-utilisé sur le nouveau site.
+
+Nous avons également amélioré notre site web sous plusieurs points, nous avons notamment utilisé up.js pour le pwa.
 
 **Lieux :**
 Be-Central, bureaux de BeCode.org.
