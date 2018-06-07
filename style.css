@@ -43,6 +43,19 @@ section#intro {
   }
 }
 
+
+.tform {
+  font-size: 140%;
+}
+
+.stform {
+  font-size: 100%;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
 /* #quoi .dechet {
   background-color: limegreen;
 } */
