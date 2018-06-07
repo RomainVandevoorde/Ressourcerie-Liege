@@ -9,7 +9,7 @@ h1 {
 }
 
 section#intro {
-  background-image: url('img/bg-intro.jpg');
+  background-image: url('img/bg-intro.jpeg');
   background-size: cover;
 }
 
@@ -18,9 +18,11 @@ section#intro {
 }
 
 .intro-section {
+  height: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* #quoi .dechet {
@@ -34,7 +36,7 @@ section#intro {
 
 .carte iframe {
   width:100%;
-  min-height: 50vh;
+  min-height: 70vh;
 }
 
 .recolte-container {
@@ -44,4 +46,10 @@ section#intro {
 
 #recolte .container {
   height: 100%;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
