@@ -20,3 +20,15 @@ Nous avons également amélioré notre site web sous plusieurs points, nous avon
 **Lieux :**
 Be-Central, bureaux de BeCode.org.
 Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
+
+
+## Réunion 15/06
+
+- Améliorations design: menu, contenu, magasins, faire un footer
+- Réparer liens menu et boutons
+- PWA
+- Améliorer le readme
+- Validation W3C
+- CAMIOOONNNNN
+- optimiser Lighthouse
+- favicon
