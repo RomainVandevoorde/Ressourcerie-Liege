@@ -1,0 +1,9 @@
+{
+    "name": "Ressourcerie de Liège",
+    "short_name" : "Ressourcerie",
+    "start_url": "index.html",
+    "scope" : "./",
+    "theme_color": "#ffee00",
+    "background_color": "#ffee00",
+    "display": "standalone"
+}
