@@ -3,10 +3,15 @@ section {
   padding: 30px 0;
 }
 
+html{
+  padding: 0;
+}
+
 
 h1 {
   text-align: center;
   margin: 18px 0;
+  color: orange;
 }
 
 .navbar{
@@ -87,9 +92,6 @@ section#intro {
   min-height: 100vh;
 }
 
-h1 {
-  color: orange;
-}
 
 /* icon animation */
 .fa-truck{
@@ -234,4 +236,32 @@ text-align: center;
 .cardimg {
 max-width: 100px;
 max-height: 100px;
+}
+
+
+footer{
+  background-color: black;
+}
+
+.adress-contact{
+  color: rgb(226, 223, 223);
+}
+
+.adress-contact p{
+  font-size: 0.8em;
+  padding: 0;
+  
+}
+
+.adress-contact h2{
+  font-size: 1em;
+  padding: 10px;
+  padding-top: 20px;
+  color: orange;
+}
+
+
+#label-quality{
+  width: 50%;
+  padding-top: 20%;
 }
