@@ -137,9 +137,6 @@ h1 {
   color: white;
 }
 
-
-
-
 .icons {
   max-width: 50px;
   margin-bottom: 10px;
@@ -199,7 +196,6 @@ h1 {
 }
 
 #intro .container {
-
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -216,6 +212,11 @@ section#procedure {
 .btn-primary {
   background-color: orange;
   border: 1px solid rgb(255, 164, 79);
+}
+
+.btn-primary:hover {
+  background-color: rgb(245, 145, 52);
+  border: 1px solid rgb(245, 145, 52);
 }
 
 .truck-animation, .arrow-animation {
