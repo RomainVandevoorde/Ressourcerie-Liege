@@ -13,6 +13,14 @@ h1 {
   background-color: black;
 }
 
+iframe {
+  border: none;
+}
+
+#mainNav img {
+  height: 50px;
+}
+
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
