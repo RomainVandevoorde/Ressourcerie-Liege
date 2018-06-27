@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <link rel="icon" type="image/png" href="img/logo_header_favicon.png" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="La Ressourcerie de Liège récolte gratuitement vos encombrants et tente de les remettre en état.">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <meta name="theme-color" content="orange">
+
+  <meta name="theme-color" content="#ffa500">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+
   <script src="upup.min.js"></script>
   <script>
   UpUp.start({
@@ -21,7 +31,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <img src="img/logo_header.png" height="50px"/>
+          <img src="img/logo_header.png" alt="Logo de la Ressourcerie de Liège"/>
           <a class="navbar-brand js-scroll-trigger" href="#page-top">RESSOURCERIE DU PAYS DE LIÈGE</a>
           <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
@@ -39,7 +49,7 @@
                 <a class="nav-link js-scroll-trigger" href="#magasins">Magasins</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#carte">Map</a>
+                <a class="nav-link js-scroll-trigger" href="#recolte">Map</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -66,7 +76,7 @@
           <h2>On récolte</h2>
           <p>Sur simple appel, nous reprenons vos encombrants tels que meubles, électroménagers, jouets, bibelots, vaisselle, outils, bois, métaux, plastiques, etc.
             Une fois collectés, ils sont triés et démantelés dans le but de connaître une nouvelle vie. </p>
-            <button class="btn btn-primary btn-xl text-uppercase">Contactez-nous</button>
+            <a href="#contact" class="btn btn-primary btn-xl text-uppercase">Contactez-nous</a>
         </div>
       </div>
       <div class="col-12 col-sm-6">
@@ -76,7 +86,7 @@
           </div>
           <h2>On recycle</h2>
           <p>En achetant chez R Shop, vous faites un geste à la fois écologique et citoyen. Rendez-vous dans notre boutique pour découvrir un vaste choix d'objets de seconde main : meubles, bibelots, objets de décoration, vaisselle, livres, jouets, vélos, etc.</p>
-          <button class="btn btn-primary btn-xl text-uppercase">Découvrez nos magasins</button>
+          <a href="#magasins" class="btn btn-primary btn-xl text-uppercase">Découvrez nos magasins</a>
         </div>
       </div>
     </div>
@@ -89,7 +99,7 @@
     <h1>Ce que nous récoltons</h1>
     <div class="row">
       <div class="col-12 col-md-4">
-        <img src="img/illu4.jpg" class="img-fluid" alt="">
+        <img src="img/illu4.jpg" alt="Ramassage gratuit des encombrants" class="img-fluid">
       </div>
       <div class="col-12 col-md-8 d-flex flex-column justify-content-center" style="">
         <p class="" style="font-size: 1.6em;">
@@ -100,42 +110,42 @@
     <div class="row">
       <div class="col-12 col-sm-6 col-md-4 col-lg-2">
         <div class="dechet car h-100 text-center">
-          <img src="./img/armchair.png" alt="" class="card-img-top icons">
+          <img src="./img/armchair.png" alt="Mobilier" class="card-img-top icons">
           <h4 class="card-title text-center">Mobilier</h4>
           <p class="card-text text-center">Meubles, objets de décoration, vaisselle, tissus d'ameublements</p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-2">
         <div class="dechet car h-100 text-center">
-          <img src="./img/toy.png" alt="" class="card-img-top icons">
+          <img src="./img/toy.png" alt="Objets de loisir" class="card-img-top icons">
           <h4 class="card-title text-center">Objets de loisirs</h4>
           <p class="card-text text-center">Livres, jouets, vélos et autres...</p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-2">
         <div class="dechet car h-100 text-center">
-          <img src="./img/washing-machine-1.png" alt="" class="card-img-top icons">
+          <img src="./img/washing-machine-1.png" alt="Electro" class="card-img-top icons">
           <h4 class="card-title text-center">Electro</h4>
           <p class="card-text text-center">Electroménagers, appareils électriques et électroniques</p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-2">
         <div class="dechet car h-100 text-center">
-          <img src="./img/heater.png" alt="" class="card-img-top icons">
-          <h4 class="card-title text-center">Chauffage et tondeuses</h4>
+          <img src="./img/heater.png" alt="Chauffage et tondeuses" class="card-img-top icons">
+          <h4 class="card-title text-center">Chauffage et appareils électriques</h4>
           <p class="card-text text-center">Matériel de chauffage et articles métalliques</p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-2">
         <div class="dechet car h-100 text-center">
-          <img src="./img/bathtub1.png" alt="" class="card-img-top icons">
+          <img src="./img/bathtub1.png" alt="Sanitaires" class="card-img-top icons">
           <h4 class="card-title text-center">Sanitaires</h4>
           <p class="card-text text-center">Baignoires, bidets, WC, éviers, lavabos et autres appareils sanitaires</p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-2">
         <div class="dechet car h-100 text-center">
-          <img src="./img/door.png" alt="" class="card-img-top icons">
+          <img src="./img/door.png" alt="Outils et matériaux" class="card-img-top icons">
           <h4 class="card-title text-center">Outils et matériaux</h4>
           <p class="card-text text-center">Les outils, portes, bois, métaux, plastiques, marbres, PVC de construction, frigolite</p>
         </div>
@@ -147,7 +157,7 @@
 <section id="procedure">
   <div class="container">
     <div class="row">
-    <div class="col-12 col-sm-8">
+    <div class="col-12 col-md-8">
       <div>
         <h1>Procédure de collecte</h1>
         <p>En règle générale, les collectes sont gratuites (Liège, Seraing, Chaudfontaine, ....); A  noter que des conditions particulières sont d'application pour certaines communes. Pour les connaitre, veuillez prendre contact par téléphone avec notre équipe :</p>
@@ -160,8 +170,8 @@
         <p>Les pièces multiples doivent être groupées (liez les planches, placez les petits bibelots et objets dans des caisses en cartons). </p>
       </div>
     </div>
-      <div class="col-12 col-sm-4">
-        <img src="img/illu5.jpg" class="img-fluid" alt="">
+      <div class="col-12 col-md-4">
+        <img src="img/illu5.jpg" class="img-fluid" alt="Ramassage gratuit des encombrants">
       </div>
     </div>
   </div>
@@ -173,7 +183,7 @@
       <h1>Carte</h1>
       <p>Sur la carte suivante vous pouvez voir dans quelle zone nous procédons au ramassage gratuit de vos encombrants, et où se situent nos magasins.</p>
       <div class="carte">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80996.30250160373!2d5.529050524430555!3d50.62461905675607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f74b8eacfcfb%3A0x40099ab2f4d6b40!2zTGnDqGdl!5e0!3m2!1sfr!2sbe!4v1528363033675" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe title="Carte de la zone de ramassage et des magasins" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80996.30250160373!2d5.529050524430555!3d50.62461905675607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f74b8eacfcfb%3A0x40099ab2f4d6b40!2zTGnDqGdl!5e0!3m2!1sfr!2sbe!4v1528363033675" style="border:0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -194,21 +204,21 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input class="form-control" id="name" type="text" placeholder="Nom et prénom" required="required" data-validation-required-message="">
+                <input class="form-control" id="name" type="text" placeholder="Nom et prénom" aria-label="Nom et prénom" required="required" data-validation-required-message="">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input class="form-control" id="email" type="email" placeholder="Adresse e-mail" required="required" data-validation-required-message="">
+                <input class="form-control" id="email" type="email" placeholder="Adresse e-mail" aria-label="Adresse e-mail" required="required" data-validation-required-message="">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input class="form-control" id="phone" type="tel" placeholder="Numéro de téléphone" required="required" data-validation-required-message="">
+                <input class="form-control" id="phone" type="tel" placeholder="Numéro de téléphone" aria-label="Numéro de téléphone" required="required" data-validation-required-message="">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <textarea class="form-control" id="message" placeholder="Message" required="required" rows="6" data-validation-required-message=""></textarea>
+                <textarea class="form-control" id="message" placeholder="Message" aria-label="Message" required="required" rows="6" data-validation-required-message=""></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -224,6 +234,7 @@
   </div>
 </section>
 
+
 <section id="magasins">
   <div class="cd container">
     <h1 id="MagasinsTitle"> Découvrez nos magasins ! </h1>
@@ -233,10 +244,10 @@
         <div class="card-body">
           <h5 class="card-title"><b>R SHOP City (Liège)</b></h5>
           <p class="card-text"><b>Où ?</b>
-          </br>Quai Saint Léonard 79
-          </br>4000 Liège
-          </br></br><b>Quand ?</b>
-          </br> Du mardi au samedi de 10h30 à 12h30 et de 13h à 18h</p>
+          <br>Quai Saint Léonard 79
+          <br>4000 Liège
+          <br><br><b>Quand ?</b>
+          <br> Du mardi au samedi de 10h30 à 12h30 et de 13h à 18h</p>
         </div>
       </div>
       <div class="card">
@@ -244,14 +255,14 @@
         <div class="card-body">
           <h5 class="card-title"><b>R SHOP Country (Grâce-Hollogne)</b></h5>
           <p class="card-text"><b>Où ?</b>
-          </br>Chaussée verte 25/3
-          </br>4460 Grâce-Hollogne
-          </br>E42 sortie 5 / E40 sortie 30
-          </br></br><b>Quand ?</b>
-          </br> Du lundi au vendredi :
-        </br></p> <p id="textMag"class="text-left">- le lundi de 8h30 à 17h00
-          </br>- les mardi, mercredi et vendredi de 8h30 à 16h30
-          </br>- le jeudi de 8h30 à 17h30</p>
+          <br>Chaussée verte 25/3
+          <br>4460 Grâce-Hollogne
+          <br>E42 sortie 5 / E40 sortie 30
+          <br><br><b>Quand ?</b>
+          <br> Du lundi au vendredi :
+        <br></p> <p id="textMag" class="text-left">- le lundi de 8h30 à 17h00
+          <br>- les mardi, mercredi et vendredi de 8h30 à 16h30
+          <br>- le jeudi de 8h30 à 17h30</p>
         </div>
       </div>
     </div>
@@ -260,6 +271,24 @@
     </div>
   </div>
 </section>
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-7 col-lg-9 offset-1 adress-contact">
+            <h2>Contact</h2>
+            <p>Tel: 04/220.20.00.</p>
+            <p>Mail: info@ressourcerieliege.be</p>
+            <p>T.V.A. : 0830.121.842</p>
+        </div>
+        <div class="col-4 col-lg-2">
+          <img id="label-quality" alt="Label Récup" src="img/LabelRecUp.jpg">
+        </div>
+
+      </div>
+    </div>
+
+</footer>
 
 
 </body>

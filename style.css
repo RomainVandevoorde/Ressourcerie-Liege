@@ -3,14 +3,27 @@ section {
   padding: 30px 0;
 }
 
+html{
+  padding: 0;
+}
+
 
 h1 {
   text-align: center;
   margin: 18px 0;
+  color: orange;
 }
 
 .navbar{
   background-color: black;
+}
+
+iframe {
+  border: none;
+}
+
+#mainNav img {
+  height: 50px;
 }
 
 #mainNav .navbar-toggler {
@@ -87,9 +100,6 @@ section#intro {
   min-height: 100vh;
 }
 
-h1 {
-  color: orange;
-}
 
 /* icon animation */
 .fa-truck{
@@ -140,9 +150,6 @@ h1 {
   box-sizing: border-box;
   color: white;
 }
-
-
-
 
 .icons {
   max-width: 50px;
@@ -203,7 +210,6 @@ h1 {
 }
 
 #intro .container {
-
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -220,6 +226,11 @@ section#procedure {
 .btn-primary {
   background-color: orange;
   border: 1px solid rgb(255, 164, 79);
+}
+
+.btn-primary:hover {
+  background-color: rgb(245, 145, 52);
+  border: 1px solid rgb(245, 145, 52);
 }
 
 .truck-animation, .arrow-animation {
@@ -262,4 +273,32 @@ max-height: auto;
 
 #questLink a {
     color: white;
+}
+
+
+footer{
+  background-color: black;
+}
+
+.adress-contact{
+  color: rgb(226, 223, 223);
+}
+
+.adress-contact p{
+  font-size: 0.8em;
+  padding: 0;
+  
+}
+
+.adress-contact h2{
+  font-size: 1em;
+  padding: 10px;
+  padding-top: 20px;
+  color: orange;
+}
+
+
+#label-quality{
+  width: 50%;
+  padding-top: 20%;
 }
