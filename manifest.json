@@ -3,7 +3,7 @@
     "short_name" : "Ressourcerie",
     "start_url": "index.html",
     "scope" : "./",
-    "theme_color": "#ffee00",
-    "background_color": "#ffee00",
+    "theme_color": "#ffa500",
+    "background_color": "#ffa500",
     "display": "standalone"
 }
