@@ -1,34 +1,52 @@
-# Ressourcerie-Liege
 
-## Six hours Team Challenge
-Jeudi 07 juin 2018
+# Projet : Ressourcerie du Pays de Liège *(challenge-six-hours-team)*
 
+# Objectif et situation :
+Compétition de 6 heures entre projets inter-classes de la formation BeCode.org ayant pour but de tester les compétences en Git, HTML, JavaScript, et CSS (Bootstrap) des apprenants acquises lors des premières semaines, ainsi que la capacité à gérer et résoudre les problèmes rencontrés avec de nouveaux collaborateurs.  
 
-**Team :** Nathan Houtain (Johnson II), Colombe Sechehaye (Johnson II) et Romain Vandevoorde (Lovelace II).
+> Prix : un t-shirt BeCode.org pour chacun des membres de l'équipe gagnante. 
 
-**Consignes :** Dans le cadre d'un challenge de 6 heures en équipe. Réaliser et déployer en quelques heures un one-pager qui propose une meilleure version d'un site de base, attractif, allant à l'essentiel, en utilisant un framework CSS, avec au moins une animation CSS.
+Apprenants : Romain Vandevoorde *(Lovelace II)*, Collombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
 
-**Client :** http://www.ressourcerieliege.be/
+# Consignes :
+Rédesigner et déployer un site à caractère social (donné) en one-pager responsive. Utiliser au moins une animation et un framework CSS. Faire également une Progressive Web Application et utiliser Lightouse Test et W3C Validator. Interdiction d'utiliser un template prédéfini. Un site différent par groupe, notre site d'origine ; http://www.ressourcerieliege.be/
+ 
+Lien vers les consignes officielles : https://github.com/becodeorg/lovelace-2/tree/master/Projects/challenge-six-hours-team
 
-**Améliorations :**
-Le site présentant deux projets (collecte d'encombrants et magasins de seconde main), nous avons tenté de les mettre plus en valeur pour convaincre l'utilisateur en un regard. Nous avons également cherché à "désencombrer" le site par un visuel simple et attractif, notamment via deux sections et animations dans la partie "accueil".
+### Time :
+Début : jeudi 7 juin 2018, 10h.   
+Deadline : jeudi 7 juin 2018, 16h.  
+Durée : 6 heures.
 
-Nous sommes restés un maximum dans l'esprit du site. L'esprit "local" qui est une valeur de la Ressourcerie du pays de Liège " est représenté par une image de fond de Liège. Le code couleur qui était utilisé sur le site de base, le orange, a été ré-utilisé sur le nouveau site.
+> le projet à pu être amélioré jusqu'au vendredi 29 juin 2018. Durée totale ; 22 jours.  
 
-Nous avons également amélioré notre site web sous plusieurs points, nous avons notamment utilisé up.js pour le pwa.
+## Etat :
+Terminé et rendu.
 
-**Lieux :**
-Be-Central, bureaux de BeCode.org.
+## Lieux :
+Be-Central, bureaux de BeCode.org.  
 Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 
+### Courte Description :
+Site one-page responsive d'une coopérative de récolte d'encombrants. Projet réalisé par groupe de trois en 6 heures à l'aide de Bootstrap lors d'une compétition de la formation Web Dev BeCode.org à Bruxelles. Début juin 2018. 
+
+
+**Commentaires**
+
+Nous avons tenté de mieux mettre en valeur les deux projets présentés par le site (collecte d'encombrants et magasins de seconde main) grâce à deux "cards" et animations dans la partie "accueil", première section visible pour convaincre l'utilisateur en un regard. 
+Nous sommes restés un maximum dans l'esprit du site. L'aspect "local" mis en avant par la Ressourcerie du Pays de Liège est représenté par une image de fond de la ville dans l'"acceuil". 
+Nous avons gardé la couleur orange principalement utilisé sur le site d'origine en la confrontant avec du noir et du blanc pour plus de contraste et de clareté. Gobalement, nous avons cherché à "désencombrer" le site par un visuel simple et plus attractif. 
 
 ## Réunion 15/06
-
-- Améliorations design: menu, contenu, magasins, faire un footer
-- Réparer liens menu et boutons
-- PWA
-- Améliorer le readme
-- Validation W3C
-- CAMIOOONNNNN
-- optimiser Lighthouse
-- favicon
+  
+Romain et Collombe se sont réunis le vendredi 15 juin pour faire une mise au point des améliorations à apporter au projet,
+voilà ce qui l'en a été retenu ;
+  
+* Améliorations design: menu, contenu, magasins, faire un footer
+* Réparer liens menu et boutons
+* PWA
+* Améliorer le readme
+* Validation W3C
+* CAMIOOONNNNN (animation CSS)
+* optimiser Lighthouse
+* favicon
