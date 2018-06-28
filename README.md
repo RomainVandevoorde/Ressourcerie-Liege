@@ -1,5 +1,6 @@
 
-# Projet : Ressourcerie du Pays de Liège *(challenge-six-hours-team)*
+# Projet : Ressourcerie du Pays de Liège 
+### *(challenge-six-hours-team)*
 
 # Objectif et situation :
 Compétition de 6 heures entre projets inter-classes de la formation BeCode.org ayant pour but de tester les compétences en Git, HTML, JavaScript, et CSS (Bootstrap) des apprenants acquises lors des premières semaines, ainsi que la capacité à gérer et résoudre les problèmes rencontrés avec de nouveaux collaborateurs.  
@@ -27,17 +28,13 @@ Terminé et rendu.
 Be-Central, bureaux de BeCode.org.  
 Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 
-### Courte Description :
-Site one-page responsive d'une coopérative de récolte d'encombrants. Projet réalisé par groupe de trois en 6 heures à l'aide de Bootstrap lors d'une compétition de la formation Web Dev BeCode.org à Bruxelles. Début juin 2018. 
-
-
-**Commentaires**
+## Commentaires
 
 Nous avons tenté de mieux mettre en valeur les deux projets présentés par le site (collecte d'encombrants et magasins de seconde main) grâce à deux "cards" et animations dans la partie "accueil", première section visible pour convaincre l'utilisateur en un regard. 
 Nous sommes restés un maximum dans l'esprit du site. L'aspect "local" mis en avant par la Ressourcerie du Pays de Liège est représenté par une image de fond de la ville dans l'"acceuil". 
 Nous avons gardé la couleur orange principalement utilisé sur le site d'origine en la confrontant avec du noir et du blanc pour plus de contraste et de clareté. Gobalement, nous avons cherché à "désencombrer" le site par un visuel simple et plus attractif. 
 
-## Réunion 15/06
+### Réunion 15/06
   
 Romain et Collombe se sont réunis le vendredi 15 juin pour faire une mise au point des améliorations à apporter au projet,
 voilà ce qui l'en a été retenu ;
@@ -50,3 +47,7 @@ voilà ce qui l'en a été retenu ;
 * CAMIOOONNNNN (animation CSS)
 * optimiser Lighthouse
 * favicon
+
+
+### Courte Description :
+Site one-page responsive d'une coopérative de récolte d'encombrants. Projet réalisé par groupe de trois en 6 heures à l'aide de Bootstrap lors d'une compétition de la formation Web Dev BeCode.org à Bruxelles. Début juin 2018. 
