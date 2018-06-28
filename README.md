@@ -7,7 +7,7 @@ Compétition de 6 heures entre projets inter-classes de la formation BeCode.org 
 
 > Prix : un t-shirt BeCode.org pour chacun des membres de l'équipe gagnante. 
 
-Apprenants : Romain Vandevoorde *(Lovelace II)*, Collombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
+Apprenants : Romain Vandevoorde *(Lovelace II)*, Colombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
 
 # Consignes :
 Rédesigner et déployer un site à caractère social (donné) en one-pager responsive. Utiliser au moins une animation et un framework CSS. Faire également une Progressive Web Application et utiliser Lightouse Test et W3C Validator. Interdiction d'utiliser un template prédéfini. Un site différent par groupe, notre site d'origine ; http://www.ressourcerieliege.be/
@@ -36,7 +36,7 @@ Nous avons gardé la couleur orange principalement utilisé sur le site d'origin
 
 ### Réunion 15/06
   
-Romain et Collombe se sont réunis le vendredi 15 juin pour faire une mise au point des améliorations à apporter au projet,
+Romain et Colombe se sont réunis le vendredi 15 juin pour faire une mise au point des améliorations à apporter au projet,
 voilà ce qui l'en a été retenu ;
   
 * Améliorations design: menu, contenu, magasins, faire un footer
