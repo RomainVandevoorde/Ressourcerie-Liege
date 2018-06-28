@@ -30,8 +30,8 @@ Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 
 ## Commentaires
 
-Nous avons tenté de mieux mettre en valeur les deux projets présentés par le site (collecte d'encombrants et magasins de seconde main) grâce à deux "cards" et animations dans la partie "accueil", première section visible pour convaincre l'utilisateur en un regard. 
-Nous sommes restés un maximum dans l'esprit du site. L'aspect "local" mis en avant par la Ressourcerie du Pays de Liège est représenté par une image de fond de la ville dans l'"acceuil". 
+Nous avons tenté de mettre davantage en valeur les deux projets présentés par le site (collecte d'encombrants et magasins de seconde main) grâce à deux "cards" et animations dans la partie "accueil", première section visible pour convaincre l'utilisateur en un regard.  
+Nous sommes restés un maximum dans l'esprit du site. L'aspect "local" mis en avant par la Ressourcerie du Pays de Liège est représenté par une image de fond de la ville dans l'"acceuil".    
 Nous avons gardé la couleur orange principalement utilisé sur le site d'origine en la confrontant avec du noir et du blanc pour plus de contraste et de clareté. Gobalement, nous avons cherché à "désencombrer" le site par un visuel simple et plus attractif. 
 
 ### Réunion 15/06
