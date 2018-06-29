@@ -10,7 +10,7 @@ Compétition de 6 heures entre projets inter-classes de la formation BeCode.org 
 Apprenants : Romain Vandevoorde *(Lovelace II)*, Colombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
 
 # Consignes :
-Rédesigner et déployer un site à caractère social (donné) en one-pager responsive. Utiliser au moins une animation et un framework CSS. Faire également une Progressive Web Application et utiliser Lightouse Test et W3C Validator. Interdiction d'utiliser un template prédéfini. Un site différent par groupe, notre site d'origine ; http://www.ressourcerieliege.be/
+Redesigner et déployer un site à caractère social (donné) en one-pager responsive. Utiliser au moins une animation et un framework CSS. Faire également une Progressive Web Application et utiliser Lightouse Test et W3C Validator. Interdiction d'utiliser un template prédéfini. Un site différent par groupe, notre site d'origine ; http://www.ressourcerieliege.be/
  
 Lien vers les consignes officielles : https://github.com/becodeorg/lovelace-2/tree/master/Projects/challenge-six-hours-team
 
