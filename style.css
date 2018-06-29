@@ -7,7 +7,6 @@ html{
   padding: 0;
 }
 
-
 h1 {
   text-align: center;
   margin: 18px 0;
@@ -16,14 +15,6 @@ h1 {
 
 .navbar{
   background-color: black;
-}
-
-iframe {
-  border: none;
-}
-
-#mainNav img {
-  height: 50px;
 }
 
 #mainNav .navbar-toggler {
@@ -104,36 +95,32 @@ section#intro {
 /* icon animation */
 .fa-truck{
   width: 100%;
-  animation: animationFrames 5s infinite ease-in-out;
+  animation: animationFrames linear 3s;
   text-align: center;
-}
 
+}
 
 @keyframes animationFrames{
   0% {
     transform: translateX(0px) translateY(0px);
   }
 
-  30% {
+  40% {
     transform: translateX(300px) translateY(0px);
   }
 
-  31% {
+  41% {
     transform: translateX(300px) translateY(100px);
   }
-  32%{
+  42%{
     transform: translateX(-300px) translateY(100px);
   }
-  33%{
+  43%{
     transform: translateX(-300px) translateY(0px);
-  }
-  80% {
-    transform: translateX(0px) translateY(0px);
   }
   100% {
     transform: translateX(0px) translateY(0px);
   }
-
 }
 
 .arrow-animation{
@@ -246,33 +233,8 @@ text-align: center;
 }
 
 .cardimg {
-max-width: 250px;
-max-height: auto;
-}
-
-#magasins {
-  background-color: orange;
-  width: 100% !important;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-#MagasinsTitle {
-  color: white;
-  margin-top: 0px;
-  margin-bottom: 5%;
-}
-
-#textMag {
-  padding-left:20%;
-}
-
-#questLink {
-  padding-top: 2%;
-}
-
-#questLink a {
-    color: white;
+max-width: 100px;
+max-height: 100px;
 }
 
 
@@ -287,7 +249,7 @@ footer{
 .adress-contact p{
   font-size: 0.8em;
   padding: 0;
-  
+
 }
 
 .adress-contact h2{
