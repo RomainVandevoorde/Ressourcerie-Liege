@@ -16,7 +16,7 @@ Lien vers les consignes officielles : https://github.com/becodeorg/lovelace-2/tr
 
 ### Time :
 Début : jeudi 7 juin 2018, 10h.   
-Deadline : jeudi 7 juin 2018, 16h.  
+Deadline : jeudi 7 juin 2018, 16h30.  
 Durée : 6 heures.
 
 > le projet à pu être amélioré jusqu'au vendredi 29 juin 2018. Durée totale ; 22 jours.  
