@@ -45,8 +45,8 @@ voilà ce qui l'en a été retenu ;
 * Améliorer le readme
 * Validation W3C
 * CAMIOOONNNNN (animation CSS)
-* optimiser Lighthouse
-* favicon
+* Optimiser Lighthouse
+* Favicon
 
 
 ### Courte Description :
